@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="">
     <title>Login</title>
 </head>
 <body>
     <main>
         <section>
-            <div>
-                foto
+            <div class="imagem-login">
+                <img width="300" height="300" src="imagens/pexels-pixabay-273209.jpg" alt="login"/>
             </div>
             <div>
                 <h1>Login</h1>
@@ -18,7 +19,20 @@
                     Seja bem-vindo novamente. Faça login para acessar a sua conta e poder configurar o seu ambiente.
                 </p>
                 <form action="login.php" method="post">
-                    
+                    <div class="box">
+                        <label for="email"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user--v1.png" alt="user--v1"/></label>
+                        <input type="email" required placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="box">
+                        <label for="senha"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/key--v1.png" alt="key--v1"/></label>
+                        <input type="password" required placeholder="Digite sua senha">
+                    </div>
+                    <div class="entrar">
+                        <button type="submit">Entrar</button>
+                    </div>
+                    <div class="esqueci-senha">
+                        <button type="submit">Esqueci a senha ✉</button>
+                    </div>
                 </form>
             </div>
         </section>
