@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilos/telas-maiores.css">
     <title>Login</title>
 </head>
 <body>
@@ -21,11 +21,11 @@
                 <form action="login.php" method="post">
                     <div class="box">
                         <label for="email"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user--v1.png" alt="user--v1"/></label>
-                        <input type="email" required placeholder="Digite seu e-mail">
+                        <input type="email" name="eml" id="ieml" required minlength="4" placeholder="Digite seu e-mail" autocomplete="email">
                     </div>
                     <div class="box">
                         <label for="senha"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/key--v1.png" alt="key--v1"/></label>
-                        <input type="password" required placeholder="Digite sua senha">
+                        <input type="password" name="passw" id="ipassw" required minlength="6" maxlength="8" placeholder="Digite sua senha">
                     </div>
                     <div class="entrar">
                         <button type="submit">Entrar</button>
