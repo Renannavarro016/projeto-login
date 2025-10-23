@@ -6,3 +6,4 @@ CREATE TABLE usuarios (
 
 INSERT INTO usuarios (email, senha)
 VALUES ('renannavarro@gmail.com', SHA2('123456', 256));
+
