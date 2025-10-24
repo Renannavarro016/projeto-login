@@ -155,8 +155,8 @@ div p {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 539px;
-    margin-left: 15px;
+    margin-right: 550px;
+    margin-left: 20px;
 }
 
 form {
@@ -165,8 +165,8 @@ form {
     align-items: center;
     gap: 5px;
     margin-top: 0px;
-    margin-right: 492px;
-    margin-left: -90px;
+    margin-right: 505px;
+    margin-left: -70px;
 }
 
 div .box {
@@ -237,7 +237,7 @@ section {
     color: white;
     background-color: #5314CD;
     margin-top: 13px;
-    margin-right: 20px;
+    margin-right: 12px;
 }
 
 .esqueci-senha button {
@@ -247,7 +247,7 @@ section {
     color: white;
     background-color: #5314CD;
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 12px;
 }
 
 .entrar button:hover {
