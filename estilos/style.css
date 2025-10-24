@@ -88,6 +88,7 @@ section {
     margin: 0 auto;
     margin-top: 60px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    transition: width 0.4s ease-out;
 }
 
 .entrar button {
@@ -96,6 +97,7 @@ section {
     border-radius: 20px;
     color: white;
     background-color: #4a12bb;
+    transition: 0.7s;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -106,14 +108,15 @@ section {
     border-radius: 20px;
     color: white;
     background-color: #5314CD;
+    transition: 0.7s;
     margin-top: 0px;
     margin-left: 10px;
 }
 
 .entrar button:hover {
-    background-color: #180047b0;
+    background-color: #110033d3;
 }
 
 .esqueci-senha button:hover {
-    background-color: #180047b0;
+    background-color: #110033d3;
 }
