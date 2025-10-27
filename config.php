@@ -1,6 +1,6 @@
 <?php
 $host = "sql105.infinityfree.com";       // Host do banco (veja no painel)
-$dbname = "if0_40240928_meubanco"; // Nome do banco
+$dbname = "f0_40254738_renan"; // Nome do banco
 $user = "if0_40240928";          // Usuário do banco
 $pass = "hAGOHYQsaSPxSa";         // Senha que você criou
 
