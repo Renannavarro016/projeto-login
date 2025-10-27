@@ -49,7 +49,7 @@ div .box {
     height: 100%;
     background-color: #cac6d170;
     border-radius: 20px;
-    border: 2px solid #5314CD;
+    border: 2px solid black;
     font-size: 15px;
     padding: 0 50px;
     outline: none;
@@ -58,13 +58,14 @@ div .box {
 }
 
 .box input:hover {
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.226);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.116);
     transform: translateY(-1px);
     transition: all 0.7s;
 }
 
 .box input:focus {
-    border-color: black;
+    border-color: #5214cdec;
     transition: all 0.3s;
 }
     
@@ -106,14 +107,20 @@ section {
     text-align: center;
     margin-top: 10px;
     margin-left: 5px;
-    opacity: 0.7;
     gap: 10px;
+    opacity: 0.9;
+}
+
+.redes a img {
+    transition: all 0.7s;
+    background-color: rgb(226, 226, 226);
+    border-radius: 15%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
 }
 
 .redes a img:hover {
-    opacity: 1px;
-    transition: all 0.7s;
     transform: translateY(-3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .entrar button {
@@ -143,9 +150,11 @@ section {
 .entrar button:hover {
     background-color: #110033d3;
     transform: translateY(-2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
 }
 
 .esqueci-senha button:hover {
     background-color: #110033d3;
     transform: translateY(-2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
 }

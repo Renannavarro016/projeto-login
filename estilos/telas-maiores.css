@@ -55,7 +55,7 @@ div .box {
     height: 100%;
     background-color: #cac6d170;
     border-radius: 20px;
-    border: 2px solid #5314CD;
+    border: 2px solid black;
     font-size: 15px;
     padding: 0px 55px;
     outline: none;
@@ -63,7 +63,7 @@ div .box {
 }
 
 .box input:focus {
-    border-color: black;
+    border-color: #5214cdec;
     transition: all 0.3s;
 }
     
@@ -107,7 +107,7 @@ section {
     text-align: center;
     margin-top: 15px;
     margin-left: 79px;
-    opacity: 0.7;
+    opacity: 0.9;
     gap: 10px;
 }
 
@@ -197,7 +197,7 @@ div .box {
     height: 98%;
     background-color: #cac6d170;
     border-radius: 20px;
-    border: 2px solid #5314CD;
+    border: 2px solid black;
     font-size: 15px;
     padding: 0px 55px;
     outline: none;
@@ -205,7 +205,7 @@ div .box {
 }
 
 .box input:focus {
-    border-color: black;
+    border-color: #5214cdec;
     transition: all 0.3s;
 }
     
@@ -251,7 +251,7 @@ section {
     text-align: center;
     margin-top: 13px;
     margin-left: 50px;
-    opacity: 0.7;
+    opacity: 0.9;
     gap: 10px;
 }
 
