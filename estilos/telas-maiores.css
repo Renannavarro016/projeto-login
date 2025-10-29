@@ -25,15 +25,23 @@ body {
 .imagem-login img {
     float: left;
     border-radius: 25px 0px 0px 25px;
-    height: 380px;
+    height: 399px;
+}
+
+.redes {
+    margin-bottom: 6px;
 }
 
 section {
     width: 768px;
-    height: 380px;
+    height: 399px;
     margin-top: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     transition: 0.4s ease-out;
+}
+
+form {
+    margin-top: -16px;
 }
 }
 
@@ -64,16 +72,20 @@ body {
     width: 50%;
     float: right;
     border-radius: 0px 25px 25px 0px;
-    height: 380px;
+    height: 399px;
 }
 
 form {
     margin-top: 18px;
 }
 
+.redes {
+    margin-bottom: 7px;
+}
+
 section {
     width: 1010px;
-    height: 380px;
+    height: 399px;
     margin-top: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     transition: 0.4s ease-out;
