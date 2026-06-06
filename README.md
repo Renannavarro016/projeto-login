@@ -23,6 +23,7 @@ O projeto conta com:
 * CSS3
 * JavaScript
 * Git & GitHub
+* Firebase Authentication
 
 ## 📱 Responsividade
 
@@ -34,11 +35,12 @@ O projeto foi desenvolvido para funcionar corretamente em:
 
 ## ✨ Funcionalidades
 
-* Interface moderna de autenticação
-* Campos estilizados
-* Responsividade completa
-* Estrutura organizada
-* Layout intuitivo
+* ✅ Interface moderna de autenticação
+* ✅ Campos estilizados
+* ✅ Responsividade completa
+* ✅ Estrutura organizada
+* ✅ Layout intuitivo
+* ✅ Autenticação com Firebase
 
 ## 🎯 Objetivos do projeto
 
@@ -66,6 +68,10 @@ git clone https://github.com/seuusuario/projeto-login.git
 
 # Abra o index.html
 ```
+
+
+### ⭐ Se gostou do projeto, deixe uma estrela no repositório!
+
 
 ## 👨‍💻 Desenvolvedor
 
