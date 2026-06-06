@@ -58,6 +58,9 @@ btnCadastro.addEventListener("click", () => {
 // LOGIN
 btnLogin.addEventListener("click", () => {
 
+  console.log(email.value);
+  console.log(senha.value);
+
   signInWithEmailAndPassword(
     auth,
     email.value,
