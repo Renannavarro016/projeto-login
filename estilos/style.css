@@ -31,10 +31,9 @@ header #logo a {
     user-select: none;
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
-    padding: 5px;
+    font-size: 1.1em;
     user-select: none;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 #menu ul {
@@ -45,9 +44,8 @@ header #logo a {
     position: relative;
     color: white;
     text-decoration: none;
-    padding: 0px;
     margin-right: 15px;
-    font-size: .9em;
+    font-size: 14.4px;
     font-weight: 500;
     transition: all 0.5s;
 }
@@ -78,8 +76,8 @@ div h1 {
 
 div p {
     text-align: center;
-    font-size: 17.7px;
-    margin: 5px 10px 14px 10px;
+    font-size: 15px;
+    margin: 12px 20px 12px 20px;
 }
 
 form {
@@ -93,7 +91,7 @@ form {
 div .box {
     position: relative;
     width: 85%;
-    height: 45px;
+    height: 40px;
     margin: 0px 0;
     margin-top: 10px;
 }
@@ -101,21 +99,22 @@ div .box {
 .box input {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 95%;
     background-color: #cac6d142;
     border-radius: 15px;
     border: 1px solid black;
-    font-size: 15px;
-    padding: 0 50px;
+    font-size: 12px;
+    padding: 0 60px;
     outline: none;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.11);
-    transition: all 0.3s;
+    transition: all 0.3s, transform .3s;
+    margin-bottom: 5px;
 }
 
 .box input:hover {
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.226);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.116);
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     transition: all 0.7s;
 }
 
@@ -136,23 +135,33 @@ div .box {
     opacity: 0.7;
 }
 
+.box p {
+    display: block;
+    margin: auto;
+    font-size: 12.5px;
+    font-weight: 326;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 .imagem-login {
     margin-bottom: 20px;
 }
 
 .imagem-login img {
     border-radius: 20px 20px 0px 0px;
-    width: 348px;
-    height: 260px;
+    width: 320px;
+    height: 250px;
 }
 
 section {
+    display: block;
     background-color: white;
-    width: 348px;
-    height: 689px;
+    width: 320px;
+    height: 670px;
     border-radius: 25px;
-    margin: 0 auto;
-    margin-top: 80px;
+    margin: auto;
+    margin-top: 48px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     transition: 0.4s ease-out;
     align-items: center;
@@ -162,9 +171,9 @@ section {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 19px;
-    margin-bottom: 7px;
-    margin-left: 8px;
+    margin-top: 39px;
+    margin-bottom: 15px;
+    margin-left: 5px;
     gap: 10px;
     opacity: 0.7;
 }
@@ -181,16 +190,17 @@ section {
 }
 
 .entrar button, .esqueci-senha button {
-    width: 220px;
-    height: 36px;
+    width: 190px;
+    height: 33px;
     border-radius: 10px;
     border: 2px solid black;
     color: white;
     background-color: #3d0aa3;
     transition: all 0.5s;
-    margin-top: 5px;
-    margin-left:7px;
+    margin-top: 0px;
+    margin-left: 6px;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .entrar button:hover, .esqueci-senha button:hover {

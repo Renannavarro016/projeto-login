@@ -27,6 +27,10 @@ div h1 {
     margin-bottom: 20px;
 }
 
+.box input {
+    margin-bottom: 7px;
+}
+
 .imagem-login {
     margin-bottom: 20px;
 }
@@ -37,12 +41,19 @@ div h1 {
     height: 399px;
 }
 
+.box p {
+    font-size: 12.5px;
+    font-weight: 326;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 .redes {
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 
 section {
-    width: 768px;
+    width: 758px;
     height: 399px;
     margin-top: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
@@ -69,7 +80,7 @@ body {
 }
 
 .form-login p {
-    font-size: 18px;
+    font-size: 17px;
     padding-right: 510px;
 }
 
@@ -81,7 +92,21 @@ body {
     width: 50%;
     float: right;
     border-radius: 0px 25px 25px 0px;
-    height: 399px;
+    height: 405px;
+}
+
+.box input {
+    margin-bottom: 12px;
+}
+
+.box p {
+    position: absolute;
+    top: 45px;
+    right: -377px;
+    font-size: 12.5px;
+    font-weight: 326;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 form {
@@ -89,13 +114,14 @@ form {
 }
 
 .redes {
-    margin-bottom: 7px;
+    margin-top: 43px;
+    margin-bottom: 8px;
 }
 
 section {
-    width: 1010px;
-    height: 399px;
-    margin-top: 200px;
+    width: 979px;
+    height: 405px;
+    margin-top: 190px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     transition: 0.4s ease-out;
 }
