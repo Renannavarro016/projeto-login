@@ -23,8 +23,9 @@ div h1 {
 }
 
 .form-login p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 14.5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .box input {

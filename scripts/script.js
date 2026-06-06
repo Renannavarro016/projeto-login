@@ -31,8 +31,8 @@ const auth = getAuth(app);
 const email = document.getElementById("email");
 const senha = document.getElementById("senha");
 
-const btnLogin = document.getElementById(".entrar btnLogin");
-const btnCadastro = document.getElementById(".esqueci-senha btnCadastro");
+const btnLogin = document.getElementById("btnLogin");
+const btnCadastro = document.getElementById("btnCadastro");
 
 
 // CADASTRAR
@@ -70,7 +70,8 @@ btnLogin.addEventListener("click", () => {
   })
 
   .catch((error) => {
-    alert("Erro ao logar");
+  alert(error.message);
+  console.log(error);
   });
 
 });
