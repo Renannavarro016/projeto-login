@@ -31,8 +31,8 @@ const auth = getAuth(app);
 const email = document.getElementById("email");
 const senha = document.getElementById("senha");
 
-const btnLogin = document.getElementById("btnLogin");
-const btnCadastro = document.getElementById("btnCadastro");
+const btnLogin = document.getElementById(".entrar btnLogin");
+const btnCadastro = document.getElementById(".esqueci-senha btnCadastro");
 
 
 // CADASTRAR
