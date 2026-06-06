@@ -1,5 +1,5 @@
 
-Projeto tela de login
+Projeto de login responsivo com autenticação real de usuários utilizando Firebase.
 
 # 🔐 Projeto Login Moderno
 
@@ -16,6 +16,7 @@ O projeto conta com:
 * Organização visual limpa
 * Estrutura semântica
 * Experiência otimizada para diferentes dispositivos
+* Sistema de autenticação utilizando Firebase Authentication
 
 ## 🛠️ Tecnologias utilizadas
 

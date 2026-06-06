@@ -45,11 +45,11 @@ btnCadastro.addEventListener("click", () => {
   )
 
   .then((userCredential) => {
-    alert("Conta criada com sucesso!");
+    window.alert("Conta criada com sucesso!");
   })
 
   .catch((error) => {
-    alert(error.message);
+    window.alert(error.message);
   });
 
 });
@@ -68,13 +68,13 @@ btnLogin.addEventListener("click", () => {
   )
 
   .then((userCredential) => {
-    alert("Login realizado!");
+    window.alert("Login realizado!");
     window.location.href = "home.html";
   })
 
   .catch((error) => {
-  alert(error.message);
-  console.log(error);
+    window.alert(error.message);
+    console.log(error);
   });
 
 });
