@@ -93,7 +93,7 @@ body {
     width: 50%;
     float: right;
     border-radius: 0px 25px 25px 0px;
-    height: 405px;
+    height: 415px;
 }
 
 .box input {
@@ -121,7 +121,7 @@ form {
 
 section {
     width: 979px;
-    height: 405px;
+    height: 415px;
     margin-top: 190px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     transition: 0.4s ease-out;
