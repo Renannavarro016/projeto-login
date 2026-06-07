@@ -59,7 +59,7 @@ Acesse o projeto online:
 
 ## 📸 Preview
 
-<img width="100%" src="./imagens/preview.ppg">
+<img width="100%" src="./imagens/preview.png">
 
 ## 📂 Como executar o projeto
 
