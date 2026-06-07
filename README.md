@@ -71,7 +71,9 @@ git clone https://github.com/seuusuario/projeto-login.git
 ```
 
 
-### ⭐ Se gostou do projeto, deixe uma estrela no repositório!
+
+#### ⭐ Se gostou do projeto, deixe uma estrela no repositório!
+
 
 
 ## 👨‍💻 Desenvolvedor
